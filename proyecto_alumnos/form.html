@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./form.css">
+    <title>alumnos</title>
+</head>
+<body>
+
+    <h4>Opciones</h4><hr>
+  
+    <h4>Busqueda de alumnos</h4>
+    <div class="name">
+      <label for="nombre">Busqueda por nombre</label>
+       <input id="busqueda_nombre" /> <br>
+        <button onclick="obtener_alumno()">
+       Buscar 
+        </button>
+   
+      <div id="resultado">
+
+      </div>
+    </div>  <br>
+
+        <div class="ape">
+            <label for="apellido">Buscar por apellido</label>
+            <input id="busqueda_apellido" /> <br>
+            <button onclick="obtener_alumno()">
+           Buscar 
+            </button>
+       
+          <div id="apellido">
+    
+          </div>
+           
+
+        </div> <br>
+
+        <div class="prom">
+            <label for="prom">Obtener promedio de Alumno </label>
+            <input id="busqueda_promedio"/> <br>
+            <button onclick="obtener_alumno">Buscar</button>
+        </div>
+        <br>
+
+        <div class="prom">
+            <label for="promG">Obtener promedio de Grupo</label>
+            <input id="busqueda_promedio"/> <br>
+            <button onclick="obtener_alumno">Buscar</button>
+        </div>
+    
+    
+    
+    
+    
+    
+    
+    <hr>
+
+  
+    
+    
+    
+    <script src="./form.js"></script>
+</body>
+</html>

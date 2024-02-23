@@ -1,0 +1,42 @@
+body{
+    background-color: #ffffff;
+   
+}
+
+.name{
+    background-color: rgb(253, 254, 255);
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 3px solid #cc1919;
+    border-radius: 10px;
+}
+
+.ape{
+    
+    background-color: rgb(253, 254, 255);
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 3px solid #e40e0e;
+    border-radius: 10px;
+}
+
+.prom{
+    
+    background-color: rgb(253, 254, 255);
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 3px solid #cc1919;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #e9dddd;
+}
+h4{
+    background-color: #f19e9e;
+    display: flex;
+    justify-content: center;
+}
